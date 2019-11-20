@@ -12,7 +12,7 @@ const IndexPage = () => ( <
   <
   SEO title = "Home" / >
   <
-  p > Running your classroom like a frikkin democracy. < /p>
+  p > Running your classroom like a frikkin chicken democracy. < /p>
 
   <
   div style = {
@@ -26,8 +26,8 @@ const IndexPage = () => ( <
   <
   /div> <
   Link to = "/page-2/" > Page 2 < /Link> <
-  Link to = "/page-3/" > Page 3 < /Link> <
-  /Layout>
+  Link to = "/page-3/" > Page 3 < /Link> < /
+  Layout >
 )
 
 export default IndexPage
