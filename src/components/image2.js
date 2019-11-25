@@ -13,7 +13,9 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const Image = () => {
+const Image = (props) => {
+  const { path } = props
+  console.log("path:", path)
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "cyp.jpg" }) {

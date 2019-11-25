@@ -9,6 +9,7 @@ const IndexPage = () => (
   <Layout >
     <SEO title="Home" />
     <p > Running your classroom like a democracy. </p>
+    <p > NEXT: navigation bar </p>
     <div style={{
       maxWidth: `300px`,
       marginBottom: `1.45rem`
@@ -21,3 +22,4 @@ const IndexPage = () => (
   </Layout >)
 
 export default IndexPage
+
