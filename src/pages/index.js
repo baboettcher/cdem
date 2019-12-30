@@ -16,9 +16,10 @@ const IndexPage = () => (
     }} >
       <Image />
     </div>
-    <Link to="/page-1/" > 1 </Link>
-    <Link to="/page-2/" > 2 </Link>
-    <Link to="/page-3/" > 3 </Link>
+    <Link to="/page-1/" > ONE </Link>
+    <Link to="/page-2/" > TWO </Link>
+    <Link to="/page-3/" > THREE </Link>
+    <Link to="/page-4/" > FOUR </Link>
   </Layout >)
 
 export default IndexPage
