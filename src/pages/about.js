@@ -1,16 +1,16 @@
 import React from "react"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const AboutPage = () => {
   return (
-    <div>
-      <h1>The About Page</h1>
+    <Layout>
+      <SEO title="About" />
+      <h1>About the project:</h1>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium vel
-        accusamus recusandae eaque, voluptates quasi quo iure facilis in,
-        pariatur laborum possimus quidem earum esse exercitationem reiciendis
-        dolores voluptatem nesciunt.
+        Adam Boettcher is a 6th grade teacher the California Public Schools. Hurray.
       </p>
-    </div>
+    </Layout>
   )
 }
 

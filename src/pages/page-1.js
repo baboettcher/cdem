@@ -1,26 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
-import Image from "../components/image2"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const SecondPage = () => (
+const FirstPage = () => (
   <Layout>
     <SEO title="Page ONE" />
-    <h1>BeSO</h1>
-    <p>Welcome to Breathing, Stretching, and Observing</p>
-    <p>BeSO will likleybe done using Next.js</p>
-
-
-    <div style={{
-      maxWidth: `300px`,
-      marginBottom: `1.45rem`
-    }} >
-      <Image path={"cyp.jpg"} />
-    </div>
-    <Link to="/">home</Link>
+    <h1>Introduction</h1>
+    <p>Here are the basic concepts:</p>
   </Layout>
 )
 
-export default SecondPage
+export default FirstPage
 
